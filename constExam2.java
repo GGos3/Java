@@ -6,7 +6,7 @@ public class constExam2 {
         System.out.println("protected");
     }
     constExam2(int a, int b){
-        System.out.println("deafault");
+        System.out.println("default");
     }
     private constExam2(int a, int b,int c) {
         System.out.println("private");

@@ -1,7 +1,8 @@
 public class StudentExam {
     public static void main(String[] args){
         St kim = new St("김현우"); kim.grade = 2;
-        St jang = new St("장민재");
+        St jang = new St("장민재", 3);
+        kim.print(); jang.print();
     }
 }
 class St{

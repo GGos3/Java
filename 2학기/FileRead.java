@@ -1,0 +1,1 @@
+import java.io.FileReader;import java.io.IOException;public class FileRead {public static void main(String[] args) {FileReader fw = null;try{fw = new FileReader("output.txt");fw.close();}catch (IOException e){System.err.println("IOException 발생");e.printStackTrace();}finally {System.out.println("예외 여부와 관계 없이 무조건 실행되는 finally 구문");}System.out.println("FOutExcept.java 실행 완료");}}
